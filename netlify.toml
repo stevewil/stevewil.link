@@ -1,0 +1,28 @@
+# This is the configuration file for Netlify.
+# It's configured for a Hugo site using the Academic theme.
+
+[build]
+  # The command to build your Hugo site.
+  command = "hugo"
+  # The directory that Netlify will deploy. Hugo builds to 'public' by default.
+  publish = "public"
+
+# Production context: these settings apply only to your main site.
+[context.production]
+  [context.production.environment]
+    # Set the specific Hugo version required by the Academic theme.
+    # The `update_academic.sh` script will automatically update this value.
+    # You should check `themes/academic/theme.toml` for the `min_version`
+    # and set it here initially (e.g., "0.74.3").
+    HUGO_VERSION = "0.74.3"
+    HUGO_ENV = "production"
+    HUGO_ENABLEGITINFO = "true"
+
+# Custom headers for security. These are good defaults.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
