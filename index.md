@@ -1,5 +1,5 @@
 # Steven C. Williams
-human digital concierge
+human-digital concierge
 
 ## Current Concerns
 - Developing high touch human/digital services
