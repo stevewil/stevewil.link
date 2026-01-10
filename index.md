@@ -2,11 +2,11 @@
 human digital concierge
 
 ## Current Concerns
-Developing high touch human/digital services
-Refining the accumulation, disaggregation and digital conversion of human analog and digital content
-Python web development
-The Weimarization of American society
-The power of film
+- Developing high touch human/digital services
+- Refining the accumulation, disaggregation and digital conversion of human analog and digital content
+- Python web development
+- The Weimarization of American society
+- The power of film
 
 ## About
 A scholar, an autodidact, a polyglot, Steven C. Williams has worked extensively and intensively as a technologist in education. 
