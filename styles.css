@@ -260,3 +260,44 @@ cite {
 #nav-trigger:checked ~ .nav-menu {
   display: block;
 }
+
+/* Responsive Header Adjustments */
+@media (max-width: 768px) {
+  body > main {
+    padding-top: 7.5rem;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header p {
+    font-size: 1.1rem;
+  }
+
+  .header-logo {
+    width: 70px;
+    height: 70px;
+    left: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body > main {
+    padding-top: 6rem;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  .header-logo {
+    width: 50px;
+    height: 50px;
+    left: 0.5rem;
+  }
+}
