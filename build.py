@@ -1,14 +1,27 @@
 import markdown
 import os
 import re
+from PIL import Image
 
 # Configuration
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MD_FILE = os.path.join(BASE_DIR, 'index.md')
 TEMPLATE_FILE = os.path.join(BASE_DIR, 'templates', 'base.html')
 OUTPUT_FILE = os.path.join(BASE_DIR, 'index.html')
+IMAGE_FILE = os.path.join(BASE_DIR, 'concierge.jpg')
+FAVICON_FILE = os.path.join(BASE_DIR, 'favicon.ico')
 
 def build_site():
+    # 0. Generate Favicon
+    if os.path.exists(IMAGE_FILE):
+        try:
+            img = Image.open(IMAGE_FILE)
+            # Save as ICO containing multiple sizes
+            img.save(FAVICON_FILE, format='ICO', sizes=[(16, 16), (32, 32), (48, 48), (64, 64)])
+            print(f"Generated favicon at {FAVICON_FILE}")
+        except Exception as e:
+            print(f"Error generating favicon: {e}")
+
     # 1. Read the Markdown file
     with open(MD_FILE, 'r', encoding='utf-8') as f:
         md_content = f.read()
