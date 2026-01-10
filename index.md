@@ -64,7 +64,7 @@ UCLA International Studies and Overseas Programs (ISOP) | Los Angeles, Californi
 
 Developed annual ISOP summer programs for local area K-12 teachers on Latin America between 1988-1999. Beginning in 1996, worked intensively on developing the first online web presence for the Center for Near Eastern Studies.
 
-## Current Website Development
+## Current Web Dev
 
 #### [American Jazzscapes of the Middle East](https://ajme.org)
 
