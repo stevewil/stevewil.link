@@ -100,4 +100,4 @@ reading | photography | short and long distance travel | gardening
 [stevewil@gmail.com](mailto:stevewil@gmail.com)
 
 ## Quote
-*“Ahab is for ever Ahab, man. This whole act’s immutably decreed."* -– Herman Melville, **Moby Dick**
+*“Ahab is for ever Ahab, man. This whole act’s immutably decreed."* -– Melville, **Moby Dick**
