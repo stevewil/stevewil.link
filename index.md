@@ -8,6 +8,12 @@ human-digital concierge
 - Studying the Weimarization of American society
 - Watching the power of film
 
+## Current Web Dev
+
+#### [American Jazzscapes of the Middle East](https://ajme.org/songs) - Python-centric web app
+
+#### [Peacemaking with Preschoolers](https://peacemakingwithpreschoolers.com) - More pure html/css structured book app
+
 ## About
 A scholar, an autodidact, a polyglot, Steven C. Williams has worked extensively and intensively as a technologist in education. 
 His academic background combined with his talents in the digital realm have allowed him to develop a unique skillset both inside and 
@@ -63,12 +69,6 @@ Taught a variety of courses on the history of Latin America and Brazil.
 UCLA International Studies and Overseas Programs (ISOP) | Los Angeles, California
 
 Developed annual ISOP summer programs for local area K-12 teachers on Latin America between 1988-1999. Beginning in 1996, worked intensively on developing the first online web presence for the Center for Near Eastern Studies.
-
-## Current Web Dev
-
-#### [American Jazzscapes of the Middle East](https://ajme.org/songs) - Python-centric web app
-
-#### [Peacemaking with Preschoolers](https://peacemakingwithpreschoolers.com) - More pure html/css structured book app
 
 ## Education
 
