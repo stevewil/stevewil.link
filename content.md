@@ -62,7 +62,7 @@ Website Development
 Currently, a web app developer including these recent sites:
 
 American Jazzscapes of the Middle East
-https://ajme.org
+https://ajme.org/songs
 
 Peacemaking with Preschoolers
 https://peacemakingwithpreschoolers.com
