@@ -66,7 +66,7 @@ Developed annual ISOP summer programs for local area K-12 teachers on Latin Amer
 
 ## Current Web Dev
 
-#### [American Jazzscapes of the Middle East](https://ajme.org)
+#### [American Jazzscapes of the Middle East](https://ajme.org/songs)
 
 #### [Peacemaking with Preschoolers](https://peacemakingwithpreschoolers.com)
 
