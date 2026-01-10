@@ -36,5 +36,14 @@
   <main>
     {{ main_content }}
   </main> 
+
+  <script>
+    // Close the menu when a link is clicked
+    document.querySelectorAll('.nav-menu a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('nav-trigger').checked = false;
+      });
+    });
+  </script>
 </body>
 </html>
