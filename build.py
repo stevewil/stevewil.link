@@ -8,7 +8,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 MD_FILE = os.path.join(BASE_DIR, 'index.md')
 TEMPLATE_FILE = os.path.join(BASE_DIR, 'templates', 'base.html')
 OUTPUT_FILE = os.path.join(BASE_DIR, 'index.html')
-IMAGE_FILE = os.path.join(BASE_DIR, 'concierge.jpg')
+IMAGE_FILE = os.path.join(BASE_DIR, 'logo.png')
 FAVICON_FILE = os.path.join(BASE_DIR, 'favicon.ico')
 
 def build_site():
