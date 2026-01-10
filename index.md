@@ -1,5 +1,5 @@
 # Steven C. Williams
-XAcademic Technologist
+Academic Technologist
 
 ## About
 A scholar, an autodidact, a polyglot, Steven C. Williams has worked extensively and intensively as a technologist in education. 
@@ -25,7 +25,7 @@ planning, analyzing, deploying, maintenance and help desk.
 **June 1996 – current**
 University of Southern California | Los Angeles, California
 
-Using MySQL, PHP and HTML, developed online learning detabases for the CALIS international studies program
+Using MySQL, PHP and HTML, developed online learning databases for the CALIS international studies program
 
 ### Program Consultant
 **Jun 2015 – Nov 2018**
