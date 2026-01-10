@@ -1,5 +1,12 @@
 Steven C. Williams
-Academic Technologist
+human digital concierge
+
+Current Concerns
+Developing high touch human/digital services
+Refining the accumulation, disaggragation and digital conversion of human analog and digital content
+Python web development
+The Weimarization of American society
+The power of film
 
 Current State
 An historian, an autodidact and a polyglot, Steven C. Williams has worked extensively and intensively as a technologist in education. His academic background combined with his computational arts skillset have allowed him to develop a unique skillset among colleagues both inside and outside academia.
@@ -8,6 +15,7 @@ Interests
 Social networks and learning
 Digital power and social equity
 Brazilian history and politics
+Photography
 
 Education
 PhD in History, 1994
