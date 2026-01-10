@@ -1,5 +1,5 @@
 # Steven C. Williams
-Academic Technologist
+XAcademic Technologist
 
 ## About
 A scholar, an autodidact, a polyglot, Steven C. Williams has worked extensively and intensively as a technologist in education. 
