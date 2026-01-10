@@ -3,7 +3,7 @@ human digital concierge
 
 Current Concerns
 Developing high touch human/digital services
-Refining the accumulation, disaggragation and digital conversion of human analog and digital content
+Refining the accumulation, disaggregation and digital conversion of human analog and digital content
 Python web development
 The Weimarization of American society
 The power of film
@@ -30,7 +30,7 @@ Experience
 Program Consultant
 AIDS Project Los Angeles
 Jun 2015 – Nov 2018 Los Angeles, California
-Helped the APLA team develop in-house training modules for clients throughough the greater Southern California region.
+Helped the APLA team develop in-house training modules for clients throughout the greater Southern California region.
 
 Information Technology Consultant – Expert
 California State University, Dominguez Hills
@@ -85,5 +85,3 @@ Publications
 
 Quote
 “Ahab is for ever Ahab, man. This whole act’s immutably decreed." – Herman Melville, Moby Dick
-
-
