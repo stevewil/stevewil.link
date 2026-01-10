@@ -20,6 +20,17 @@
 <body>
   <header>
     {{ header_content }}
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" />
+      <label for="nav-trigger" class="menu-icon">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+      <div class="nav-menu">
+        {{ nav_content }}
+      </div>
+    </nav>
   </header>
 
   <main>

@@ -14,8 +14,11 @@ def build_site():
         md_content = f.read()
 
     # 2. Convert Markdown to HTML
-    # We use 'extra' extension for better features (tables, attr_list, etc.)
-    html_content = markdown.markdown(md_content, extensions=['extra'])
+    # We use 'extra' extension for better features and 'toc' for the menu
+    # toc_depth='2-2' ensures only ## headers are included in the menu
+    md = markdown.Markdown(extensions=['extra', 'toc'], extension_configs={'toc': {'toc_depth': '2-2'}})
+    html_content = md.convert(md_content)
+    nav_content = md.toc
 
     # 3. Split content into Header and Main
     # We assume the first <h1> and the immediately following <p> belong to the header.
@@ -24,7 +27,8 @@ def build_site():
     main_content = html_content
 
     # Find the first h1 and p
-    match = re.match(r'(<h1>.*?</h1>\s*<p>.*?</p>)', html_content, re.DOTALL)
+    # Updated regex to handle attributes (like id) added by TOC extension
+    match = re.match(r'(<h1.*?>.*?</h1>\s*<p.*?>.*?</p>)', html_content, re.DOTALL)
     if match:
         header_content = match.group(1)
         # Remove the header content from the main content
@@ -37,6 +41,7 @@ def build_site():
     # 5. Inject content
     final_html = template.replace('{{ header_content }}', header_content)
     final_html = final_html.replace('{{ main_content }}', main_content)
+    final_html = final_html.replace('{{ nav_content }}', nav_content)
 
     # 6. Write the Output
     with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
