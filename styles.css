@@ -98,7 +98,7 @@ h3 {
 
 /* Remove top margin from the first heading to reduce whitespace */
 main > h2:first-child {
-  margin-top: 0;
+  margin-top: 7px;
 }
 
 /* Links */
@@ -290,6 +290,10 @@ cite {
     left: calc(1rem + 2px);
     top: calc(0.5rem + 2px);
   }
+
+  main > h2:first-child {
+    margin-top: 5px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -314,5 +318,9 @@ cite {
     height: 50px;
     left: calc(0.5rem + 1px);
     top: calc(0.5rem + 1px);
+  }
+
+  main > h2:first-child {
+    margin-top: 3px;
   }
 }
