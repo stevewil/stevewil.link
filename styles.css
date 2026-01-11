@@ -74,7 +74,7 @@ header p {
 
 /* Push content down to avoid overlap with fixed header */
 body > main {
-  padding-top: 9rem;
+  padding-top: 6.5rem;
 }
 
 /* Headings */
@@ -87,13 +87,18 @@ h2 {
   font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  scroll-margin-top: 9.5rem;
+  scroll-margin-top: 7rem;
 }
 
 h3 {
   margin: 0 0 0.5rem 0;
   font-size: 1.1rem;
   color: var(--color-text);
+}
+
+/* Remove top margin from the first heading to reduce whitespace */
+main > h2:first-child {
+  margin-top: 0;
 }
 
 /* Links */
@@ -264,7 +269,11 @@ cite {
 /* Responsive Header Adjustments */
 @media (max-width: 768px) {
   body > main {
-    padding-top: 7.5rem;
+    padding-top: 5.5rem;
+  }
+
+  h2 {
+    scroll-margin-top: 6rem;
   }
 
   header h1 {
@@ -285,7 +294,11 @@ cite {
 
 @media (max-width: 480px) {
   body > main {
-    padding-top: 6rem;
+    padding-top: 4.5rem;
+  }
+
+  h2 {
+    scroll-margin-top: 5rem;
   }
 
   header h1 {
