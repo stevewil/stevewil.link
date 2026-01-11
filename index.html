@@ -20,7 +20,7 @@
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="Logo" class="header-logo" onclick="window.location.href='/'" />
+    <img src="logo.png" alt="Logo" class="header-logo" onclick="openModal()" />
     <h1 id="steven-c-williams">Steven C. Williams</h1>
 <p><strong><em>human/digital interface concierge</em></strong></p>
     <nav class="site-nav">
@@ -127,7 +127,8 @@ UCLA International Studies and Overseas Programs (ISOP) | Los Angeles, Californi
 <p><em>“Ahab is for ever Ahab, man. This whole act’s immutably decreed."</em> -– Melville, <strong>Moby Dick</strong></p>
   </main> 
 
-  <div id="imageModal" class="modal" onclick="closeModal()">
+  <div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
     <img src="logo.png" class="modal-content" alt="Full Scale Logo">
   </div>
 
@@ -145,7 +146,7 @@ UCLA International Studies and Overseas Programs (ISOP) | Los Angeles, Californi
     }
 
     function closeModal() {
-      document.getElementById('imageModal').style.display = 'none';
+      window.location.href = '/';
     }
   </script>
 </body>
