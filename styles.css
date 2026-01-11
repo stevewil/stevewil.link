@@ -64,10 +64,11 @@ header p {
 
 .header-logo {
   position: absolute;
-  top: 0.5rem;
-  left: 1.5rem;
-  width: 100px;
-  height: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: calc(0.07 * (50vw - 11rem));
+  width: 3.5rem;
+  height: 3.5rem;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -285,10 +286,10 @@ cite {
   }
 
   .header-logo {
-    width: 35px;
-    height: 35px;
-    left: calc(1rem + 2px);
-    top: calc(0.5rem + 2px);
+    width: 3rem;
+    height: 3rem;
+    left: calc(0.07 * (50vw - 9rem));
+    top: 50%;
   }
 
   main > h2:first-child {
@@ -314,10 +315,10 @@ cite {
   }
 
   .header-logo {
-    width: 50px;
-    height: 50px;
-    left: calc(0.5rem + 1px);
-    top: calc(0.5rem + 1px);
+    width: 2.6rem;
+    height: 2.6rem;
+    left: calc(0.07 * (50vw - 7rem));
+    top: 50%;
   }
 
   main > h2:first-child {
