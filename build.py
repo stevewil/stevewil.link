@@ -33,6 +33,12 @@ def build_site():
     html_content = md.convert(md_content)
     nav_content = md.toc
 
+    # Custom Logic: Handle "Home" menu item
+    # 1. Redirect TOC link to root
+    nav_content = nav_content.replace('href="#home"', 'href="/"')
+    # 2. Remove Home heading from body
+    html_content = html_content.replace('<h2 id="home">Home</h2>', '')
+
     # 3. Split content into Header and Main
     # We assume the first <h1> and the immediately following <p> belong to the header.
     # This is a simple regex approach to separate the title card from the body.

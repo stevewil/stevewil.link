@@ -1,8 +1,10 @@
 # Steven C. Williams
 ***human/digital interface concierge***
 
+## Home
+
 ## Current Concerns
-- Developing high touch human/digital interface services
+- Developing high touch human/digital interface services 
 - Refining the accumulation, disaggregation and digital conversion of human analog and digital content
 - Developing Python web services
 - Reflecting on the Weimarization of American society

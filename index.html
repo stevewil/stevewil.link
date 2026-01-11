@@ -31,9 +31,9 @@
         <span class="bar"></span>
       </label>
       <div class="nav-menu">
-        <a href="/" style="border-bottom: 1px solid var(--color-border);">Home</a>
         <div class="toc">
 <ul>
+<li><a href="/">Home</a></li>
 <li><a href="#current-concerns">Current Concerns</a></li>
 <li><a href="#current-web-dev">Current Web Dev</a></li>
 <li><a href="#about">About</a></li>
@@ -53,7 +53,7 @@
   <main>
     <h2 id="current-concerns">Current Concerns</h2>
 <ul>
-<li>Developing high touch human/digital interface services</li>
+<li>Developing high touch human/digital interface services </li>
 <li>Refining the accumulation, disaggregation and digital conversion of human analog and digital content</li>
 <li>Developing Python web services</li>
 <li>Reflecting on the Weimarization of American society</li>
@@ -129,7 +129,6 @@ UCLA International Studies and Overseas Programs (ISOP) | Los Angeles, Californi
   </main> 
 
   <div id="imageModal" class="modal" onclick="closeModal()">
-    <span class="close" onclick="closeModal()">&times;</span>
     <img src="logo.png" class="modal-content" alt="Full Scale Logo">
   </div>
 
@@ -147,7 +146,7 @@ UCLA International Studies and Overseas Programs (ISOP) | Los Angeles, Californi
     }
 
     function closeModal() {
-      window.location.href = '/';
+      document.getElementById('imageModal').style.display = 'none';
     }
   </script>
 </body>
