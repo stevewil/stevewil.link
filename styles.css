@@ -98,7 +98,7 @@ h3 {
 
 /* Remove top margin from the first heading to reduce whitespace */
 main > h2:first-child {
-  margin-top: 7px;
+  margin-top: 11px;
 }
 
 /* Links */
@@ -292,7 +292,7 @@ cite {
   }
 
   main > h2:first-child {
-    margin-top: 5px;
+    margin-top: 8px;
   }
 }
 
@@ -321,6 +321,6 @@ cite {
   }
 
   main > h2:first-child {
-    margin-top: 3px;
+    margin-top: 5px;
   }
 }
