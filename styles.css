@@ -285,8 +285,8 @@ cite {
   }
 
   .header-logo {
-    width: 70px;
-    height: 70px;
+    width: 35px;
+    height: 35px;
     left: calc(1rem + 2px);
     top: calc(0.5rem + 2px);
   }
