@@ -71,6 +71,7 @@ header p {
   height: 3.5rem;
   border-radius: 50%;
   object-fit: cover;
+  cursor: pointer;
 }
 
 /* Push content down to avoid overlap with fixed header */
@@ -265,6 +266,25 @@ cite {
 
 #nav-trigger:checked ~ .nav-menu {
   display: block;
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  max-width: 90%;
+  max-height: 90%;
 }
 
 /* Responsive Header Adjustments */

@@ -5,7 +5,7 @@
 - Developing high touch human/digital services
 - Refining the accumulation, disaggregation and digital conversion of human analog and digital content
 - Developing Python web services
-- Studying the Weimarization of American society
+- Reflecting on the Weimarization of American society
 - Watching the power of film
 
 ## Current Web Dev

@@ -20,7 +20,7 @@
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="Logo" class="header-logo" />
+    <img src="logo.png" alt="Logo" class="header-logo" onclick="openModal()" />
     {{ header_content }}
     <nav class="site-nav">
       <input type="checkbox" id="nav-trigger" />
@@ -39,6 +39,10 @@
     {{ main_content }}
   </main> 
 
+  <div id="imageModal" class="modal" onclick="closeModal()">
+    <img src="logo.png" class="modal-content" alt="Full Scale Logo">
+  </div>
+
   <script>
     // Close the menu when a link is clicked
     document.querySelectorAll('.nav-menu a').forEach(link => {
@@ -46,6 +50,15 @@
         document.getElementById('nav-trigger').checked = false;
       });
     });
+
+    // Modal functions
+    function openModal() {
+      document.getElementById('imageModal').style.display = 'flex';
+    }
+
+    function closeModal() {
+      document.getElementById('imageModal').style.display = 'none';
+    }
   </script>
 </body>
 </html>
